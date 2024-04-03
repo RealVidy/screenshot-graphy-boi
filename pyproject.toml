@@ -9,6 +9,11 @@ python = "3.11.6"
 PyYAML = "^6.0"
 ipython-ngql = "^0.9.0"
 nebula3-python = "^3.5.0"
+llama-index = "^0.10.26"
+llama-index-llms-openai = "^0.1.14"
+llama-index-embeddings-openai = "^0.1.7"
+llama-index-graph-stores-nebula = "^0.1.2"
+llama-index-llms-azure-openai = "^0.1.5"
 
 [tool.poetry.group.dev.dependencies]
 dvc = {extras = ["s3"], version = "^3.28.0"}
@@ -20,6 +25,7 @@ ruff = "^0.1.5"
 streamlit = "^1.28.0"
 typer = "^0.9.0"
 types-PyYAML = "^6.0"
+ipykernel = "^6.29.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
