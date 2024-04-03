@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  imgs_to_txts:
+    cmd: PYTHONPATH=. python scripts/imgs_to_txts.py --screenshots-folder data/screenshots
+      --output-csv-path data/experiments/imgs_names_to_descriptions.csv
+    deps:
+    - path: data/screenshots
+      hash: md5
+      md5: 6e10da08d18d43b2dbe28fc018067cc0.dir
+      size: 367949392
+      nfiles: 545
+    - path: scripts/imgs_to_txts.py
+      hash: md5
+      md5: b0813fea6a919e1651a332cfa3333a4d
+      size: 1677
+    outs:
+    - path: data/experiments/imgs_names_to_descriptions.csv
+      hash: md5
+      md5: 83fbaa021c40891937327c6bc1a4c63e
+      size: 26545

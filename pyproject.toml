@@ -7,6 +7,8 @@ authors = ["Victor le boss <victor.degliame@sicara.com>"]
 [tool.poetry.dependencies]
 python = "3.11.6"
 PyYAML = "^6.0"
+tqdm = "^4.66.2"
+openai = "^1.16.1"
 
 [tool.poetry.group.dev.dependencies]
 dvc = {extras = ["s3"], version = "^3.28.0"}

@@ -1,0 +1,11 @@
+stages:
+  imgs_to_txts:
+    wdir: ..
+    cmd: PYTHONPATH=. python scripts/imgs_to_txts.py
+      --screenshots-folder data/screenshots
+      --output-csv-path data/experiments/imgs_names_to_descriptions.csv
+    deps:
+      - scripts/imgs_to_txts.py
+      - data/screenshots
+    outs:
+      - data/experiments/imgs_names_to_descriptions.csv
