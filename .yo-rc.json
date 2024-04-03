@@ -1,0 +1,18 @@
+{
+  "generator-sicarator": {
+    "promptValues": {
+      "authorName": "Victor le boss",
+      "authorEmail": "victor.degliame@sicara.com",
+      "ci": ".github",
+      "includeApi": false,
+      "includeDvc": true,
+      "dvcRemoteType": "s3",
+      "includeStreamlit": true,
+      "includeDvcStreamlitUtils": false
+    },
+    "projectName": "screenshot-graphy-boi",
+    "projectSlug": "screenshot-graphy-boi",
+    "projectDescription": "Project generated with Sicarator",
+    "dvcRemoteBucketName": "dvc-screenshot-graphy-boi"
+  }
+}
