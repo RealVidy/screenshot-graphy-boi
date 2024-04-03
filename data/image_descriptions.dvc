@@ -1,0 +1,6 @@
+outs:
+- md5: e65b6bf46249f0248e1faf798d36e96c.dir
+  size: 21877
+  nfiles: 101
+  hash: md5
+  path: image_descriptions
