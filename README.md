@@ -128,3 +128,19 @@ make type-check
 
 The project includes a Streamlit app.
 See its documentation in the [specific README](src/streamlit_app/README.md).
+## NebulaGraph
+
+You need nebula graph running locally, do it with docker :
+[docker nebula](https://hub.docker.com/extensions/weygu/nebulagraph-dd-ext)
+
+Input these commands in the nebula console (in docker desktop)
+
+```bash
+ADD HOSTS "storaged0":9779,"storaged1":9779,"storaged2":9779
+CREATE SPACE graphy_boi(vid_type=FIXED_STRING(256), partition_num=1, replica_factor=1);
+:sleep 10;
+USE graphy_boi;
+CREATE TAG entity(name string);
+CREATE EDGE relationship(relationship string);
+CREATE TAG INDEX entity_index ON entity(name(256));
+```
