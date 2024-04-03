@@ -1,0 +1,6 @@
+outs:
+- md5: 6e10da08d18d43b2dbe28fc018067cc0.dir
+  size: 367949392
+  nfiles: 545
+  hash: md5
+  path: screenshots

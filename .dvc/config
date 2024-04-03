@@ -1,4 +1,4 @@
 [core]
     remote = origin
 ['remote "origin"']
-    url = s3://screenshot-graphy-boi-dvc-remote
+    url = s3://dvc-screenshot-graphy-boi
